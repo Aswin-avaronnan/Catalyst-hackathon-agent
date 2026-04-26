@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push --force https://aswinav:$HF_TOKEN@huggingface.co/spaces/aswinab/Scout_AI main
+        run: git push --force https://aswinav:$HF_TOKEN@huggingface.co/spaces/aswinav/Scout_AI main
