@@ -58,7 +58,7 @@ class HealthResponse(BaseModel):
 @app.get("/health", response_model=HealthResponse, tags=["System"])
 async def health() -> HealthResponse:
     """Liveness check."""
-    dry_run = os.getenv("LLM_DRY_RUN", "true").lower() == "true"
+    dry_run = os.getenv("LLM_DRY_RUN", "false").lower() == "true"
     return HealthResponse(status="healthy", dry_run=dry_run)
 
 

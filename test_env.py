@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 gemini_key = os.getenv("GEMINI_API_KEY")
-dry_run = os.getenv("LLM_DRY_RUN", "true")
+dry_run = os.getenv("LLM_DRY_RUN", "false")
 
 print("\n" + "="*50)
 print("Environment Variable Check")

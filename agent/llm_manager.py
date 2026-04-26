@@ -94,7 +94,7 @@ class LLMManager:
         self._anthropic_api_key = os.getenv("ANTHROPIC_API_KEY", "").strip()
         self._openai_api_key = os.getenv("OPENAI_API_KEY", "").strip()
 
-        self._dry_run = os.getenv("LLM_DRY_RUN", "true").strip().lower() == "true"
+        self._dry_run = os.getenv("LLM_DRY_RUN", "false").strip().lower() == "true"
 
         self._openrouter_base_url = os.getenv(
             "OPENROUTER_BASE_URL", "https://openrouter.ai/api/v1"
