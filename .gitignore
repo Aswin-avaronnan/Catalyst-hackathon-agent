@@ -38,3 +38,6 @@ Thumbs.db
 *.log
 *.sqlite3
 *.db
+
+
+.ai_agent.zip
