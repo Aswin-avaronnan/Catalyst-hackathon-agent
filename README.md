@@ -129,4 +129,4 @@ Token usage and LLM provider statistics.
 
 ## 🎥 Demo
 
-*Watch the 2-minute walkthrough on [YouTube (Placeholder)](#).*
+*Watch the 2-minute walkthrough on [YouTube](https://www.youtube.com/watch?v=7kgR1OYEjnE).*
